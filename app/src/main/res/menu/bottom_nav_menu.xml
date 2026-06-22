@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--하단 네비게이션 바 메뉴-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_nav_menu"
+        android:icon="@drawable/icon_navi"
+        android:title="메뉴" />
+
+    <item
+        android:id="@+id/bottom_nav_search"
+        android:icon="@drawable/icon_search"
+        android:title="검색" />
+
+    <item
+        android:id="@+id/bottom_nav_cart"
+        android:icon="@drawable/icon_cart"
+        android:title="장바구니" />
+
+    <item
+        android:id="@+id/bottom_nav_order"
+        android:icon="@drawable/icon_order"
+        android:title="주문내역" />
+
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:icon="@drawable/icon_myinfo"
+        android:title="마이페이지" />
+
+</menu>

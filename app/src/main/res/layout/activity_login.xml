@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--로그인 화면-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/white">
+
+<!--    여백을 포함해 가로 화면을 꽉 채우도록 장식용 이미지 설정-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/main_img1"
+        android:layout_marginBottom="32dp" />
+
+<!--    아이디 입력창-->
+    <EditText
+        android:id="@+id/et_login_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login_id"
+        android:hint="@string/hint_id"
+        android:paddingStart="60dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="20dp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+<!--    비밀 번호 입력창-->
+    <EditText
+        android:id="@+id/et_login_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login_pwd"
+        android:hint="@string/hint_pwd"
+        android:paddingStart="60dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="20dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="32dp"/>
+
+<!--    확인하기 버튼-->
+    <ImageView
+        android:id="@+id/btn_login_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_btn"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>

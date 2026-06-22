@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--로그인 화면 아이디창-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/login_id_after" />
+    <item
+        android:drawable="@drawable/login_id_before" />
+
+</selector>

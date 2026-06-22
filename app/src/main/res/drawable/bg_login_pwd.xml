@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--로그인 화면 비밀번호 창-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/login_passwd_after" />
+    <item
+        android:drawable="@drawable/login_passwd_before" />
+
+</selector>
