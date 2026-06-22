@@ -5,7 +5,7 @@
 * **분반:** 1분반
 
 ## 1. 앱 기획 및 테마 설명
-* **앱 이름:** (예: Smart Book Market)
+* **앱 이름:** BookStore
 * **테마:** 스마트폰 속 나만의 작은 도서 쇼핑몰
 * **기획 의도:** 필수 과제 요구사항을 충족함과 동시에, 실무 쇼핑몰 앱과 유사한 사용자 경험(UX)을 제공하는 다목적 도서 마켓 목업(Mock-up) 앱입니다.
    DrawerLayout과 BottomNavigationView를 활용하여 화면 공간을 효율적으로 사용하고, SharedPreferences와 Intent를 통해 각 화면 간의 데이터가 자연스럽게 이어지도록 기획했습니다.
