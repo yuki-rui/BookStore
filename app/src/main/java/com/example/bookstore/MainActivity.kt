@@ -156,7 +156,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 else -> {
                     // 나머지 하단 메뉴는 미구현 토스트 띄우기
-                    android.widget.Toast.makeText(this, getString(R.string.toast_under_construction), android.widget.Toast.LENGTH_SHORT).show()
+                    android.widget.Toast.makeText(this@MainActivity, getString(R.string.toast_under_construction), android.widget.Toast.LENGTH_SHORT).show()
                     true
                 }
             }
